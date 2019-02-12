@@ -1,0 +1,202 @@
+{
+    "Events": {
+        "Hyrule Field": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Hyrule Casle": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Lon Lon Ranch": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Kakariko Village": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Kakariko Village Front Grotto": {
+            "Parent": "Kakariko Village",
+            "ID": -1
+        },
+        "Kakariko Village Rear Grotto": {
+            "Parent": "Kakariko Village",
+            "ID": -1
+        },
+        "Lost Woods": {
+            "Parent": null,
+            "ID": 91
+        },
+        "Kokiri Forest": {
+            "Parent": null,
+            "ID": 85
+        },
+        "Kokiri Shop": {
+            "Parent": "Kokiri Forest",
+            "ID": -1
+        },
+        "Mido's House": {
+            "Parent": "Kokiri Forest",
+            "ID": 40
+        },
+        "Death Mountain Trial": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Death Mountain Crater": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Zora's Domain": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Ice Cavern": {
+            "Parent": null,
+            "ID": -1
+        },
+        "Dessert Colossus": {
+            "Parent": null,
+            "ID": -1
+        }
+    },
+
+    "Miscellaneous": [
+        {
+            "Name": "Ocarina of Time",
+            "Age": "Child",
+            "Scene": "Hyrule Field",
+            "Event": [4, 3]
+        }
+    ],
+
+    "NPC Gifts": [
+        {
+            "Name": "Saria's Ocarina",
+            "Age": "Child",
+            "Scene": "Lost Woods",
+            "Event": [12, 1]
+        }
+    ],
+
+    "Shop Items": [
+        {
+            "Name": "Kokiri Shop",
+            "Age": "Any",
+            "Scene": "Kokiri Shop",
+            "Manual": true
+        }
+    ],
+
+    "Overworld Chests": [
+        {
+            "Name": "Mido's House (x4)",
+            "Age": "Any",
+            "Scene": "Mido's House",
+            "Flag": null
+        },
+        {
+            "Name": "Kokiri Sword Chest",
+            "Age": "Child",
+            "Scene": "Kokiri Forest",
+            "Flag": 0
+        }
+    ],
+
+    "Grottos": [
+        {
+            "Name": "Kakariko Front Grotto",
+            "Age": "Any",
+            "Scene": "Kakariko Village Front Grotto"
+        },
+        {
+            "Name": "Kakariko Rear Grotto",
+            "Age": "Any",
+            "Scene": "Kakariko Village Rear Grotto"
+        }
+    ],
+
+    "Ocarina Songs": [
+        {
+            "Name": "Impa",
+            "Age": "Child",
+            "Scene": "Hyrule Castle",
+            "Event": [5, 9]
+        },
+        {
+            "Name": "Malon",
+            "Age": "Child",
+            "Scene": "Lon Lon Ranch"
+        },
+        {
+            "Name": "Saria",
+            "Age": "Child",
+            "Scene": "Lost Woods"
+        },
+        {
+            "Name": "Royal Tomb",
+            "Age": "Any",
+            "Scene": "Kakariko Village"
+        },
+        {
+            "Name": "Ocarina of Time",
+            "Age": "Child",
+            "Scene": "Hyrule Field"
+        },
+        {
+            "Name": "Windmill Man",
+            "Age": "Adult",
+            "Scene": "Kakariko Village"
+        },
+        {
+            "Name": "Sheik in Forest",
+            "Age": "Adult",
+            "Scene": "Lost Woods"
+        },
+        {
+            "Name": "Sheik in Crater",
+            "Age": "Adult",
+            "Scene": "Death Mountain Crater"
+        },
+        {
+            "Name": "Sheik in Ice Cavern",
+            "Age": "Adult",
+            "Scene": "Ice Cavern"
+        },
+        {
+            "Name": "Sheik in Kakariko",
+            "Age": "Adult",
+            "Scene": "Kakariko Village"
+        },
+        {
+            "Name": "Sheik at Colossus",
+            "Age": "Any",
+            "Scene": "Desert Colossus"
+        },
+        {
+            "Name": "Sheik at Temple",
+            "Age": "Adult",
+            "Scene": "Temple of Time"
+        }
+    ],
+
+    "Overworld Skulltulas": [
+        {
+            "Name": "Kokiri House of Twins",
+            "Age": "Any",
+            "Scene": "Kokiri Forest",
+            "Softsoil": false,
+            "Flag": []
+        }
+    ],
+
+    "Overworld Pieces of Heart": [
+        {
+            "Name": "Lon Lon Back Building",
+            "Age": "Child",
+            "Scene": "Lon Lon Ranch",
+            "Flag": []
+        }
+    ]
+}
