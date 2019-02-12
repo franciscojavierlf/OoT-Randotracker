@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Randotracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="server.js"></script>
+    <script type="text/javascript" src="generate.js"></script>
+    <script type="text/javascript" src="link.js"></script>
+</head>
+<body>
+    <p>prueba</p>
+    <!-- Table of items -->
+    <table id="items-table">
+    </table>
+
+    <div>
+        <image src="img/rupee.png" style="width: 30px; float: left; margin-right: 10px;" />
+        <p id="rupees" style="font-size: 50px;">0</p>
+    </div>
+    <image class="sprite" id="fairy-ocarina"  src="img/fairy_ocarina.png" style="width: 30px" />
+
+    <script>
+        generateAll()
+        // Hears to the server
+        //Server.start()
+        document.addEventListener("DOMContentLoaded", function(event) {
+            Server.__timer = setInterval(() => {
+                Server.listen(Link.stats.rupees, (res) => {
+                    document.getElementById('rupees').innerHTML = res
+                })
+                Server.listen(Link.inventory.ocarina, (res) => {
+                    let fairy_ocarina = document.getElementById('fairy-ocarina')
+                    if (res === 'Fairy Ocarina') {
+                        fairy_ocarina.classList.add('sprite-on')
+                        fairy_ocarina.classList.remove('sprite-off')
+                    }
+                    else {
+                        fairy_ocarina.classList.add('sprite-off')
+                        fairy_ocarina.classList.remove('sprite-on')
+                    }
+                })
+            }, 500)
+        });
+        
+    </script>
+</body>
+</html>

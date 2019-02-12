@@ -1,0 +1,17 @@
+html {
+    background-color: #eee;
+}
+
+/** Styles for sprites **/
+
+.sprite {
+    width: 50px !important;
+}
+
+.sprite-on {
+    opacity: 1;
+}
+
+.sprite-off {
+    opacity: 0.2;
+}
